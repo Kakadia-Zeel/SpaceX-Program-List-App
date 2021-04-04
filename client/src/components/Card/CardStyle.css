@@ -1,0 +1,16 @@
+.card-container {
+  /* display: flex; */
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  align-items: center !important;
+
+}
+
+img{
+  background-color: silver;
+}
+
+
