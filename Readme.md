@@ -47,7 +47,7 @@ Client folder hierarchy :
 
 ![Screenshot](./screenshots/image1.PNG)
 
-* I have called 2 components namely HomePage and Footer in App.js
+* I have called two components namely HomePage and Footer in App.js
 *  HomePage Component : I am fetchng API data here and using state I am maintaining all Years and True/False values. Then I am passing this data to CardList Component.
 *  CardList Component : I am mapping all data provided by HomePage Component to Card Component to render it.
 *  Card Component : I am extracting needed Data and defining card structure for individual record.
