@@ -1,6 +1,6 @@
 # SpaceX Launch Programs
 
-[Click to see Website](https://example.com)
+[Click to see Website](https://spacex-program-list.herokuapp.com/)
 
 ### Built With
 
@@ -55,6 +55,6 @@ Client folder hierarchy :
 
  Kakadia Zeel - zkzeelkakadiya@gmail.com
 
-Github Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Github Link: [https://github.com/Kakadia-Zeel/SpaceX-Program-List-App](https://github.com/Kakadia-Zeel/SpaceX-Program-List-App)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://spacex-program-list.herokuapp.com/](https://spacex-program-list.herokuapp.com/)
