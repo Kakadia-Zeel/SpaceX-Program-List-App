@@ -1,4 +1,4 @@
-# SpaceX Launch Programs
+# SpaceX Launch Programs  🚀
 
 [Click to see Website](https://spacex-program-list.herokuapp.com/)
 
@@ -47,7 +47,11 @@ Client folder hierarchy :
 
 ![Screenshot](./screenshots/image1.PNG)
 
+<<<<<<< HEAD
 * I have called 2 components namely HomePage and Footer in App.js
+=======
+* I have called two components namely HomePage and Footer in App.js
+>>>>>>> 20bbedc354ad38ac203b437fbf28e2f7ae93f8a5
 *  HomePage Component : I am fetchng API data here and using state I am maintaining all Years and True/False values. Then I am passing this data to CardList Component.
 *  CardList Component : I am mapping all data provided by HomePage Component to Card Component to render it.
 *  Card Component : I am extracting needed Data and defining card structure for individual record.
