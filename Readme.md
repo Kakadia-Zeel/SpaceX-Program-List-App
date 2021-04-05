@@ -10,7 +10,7 @@
 
 ## Getting Started
 
-Setup Guide of REACTJS is given inside Readme file of client folder.
+Setup Guide of ReactJs and NodeJs Environment is given inside Readme file of client folder.
 
 ### Prerequisites
 
