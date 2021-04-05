@@ -9,8 +9,61 @@
 
 }
 
+.info-title span{
+  color: rgb(136, 136, 241);
+ }
+
+ 
 img{
   background-color: silver;
+}
+
+@media only screen and (min-device-width:701px) {
+  
+  .info{
+    text-align: left;
+  }
+
+  .info-title span{
+    color: rgb(136, 136, 241);
+   }
+  
+
+  .info-title{
+    margin: 20px;
+  }
+
+
+  .info-title h5{
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .main-title{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .info{
+    text-align: left;
+  }
+  
+
+}
+
+
+@media only screen and (max-device-width:701px){
+
+  .main-title{
+    text-align: left;
+    margin: 15px;
+  }
+
+  .info{
+    text-align: left;
+  }
+
+
 }
 
 

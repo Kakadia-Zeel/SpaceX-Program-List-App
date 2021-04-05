@@ -18,13 +18,14 @@ class HomePage extends Component {
         "2013",
         "2014",
         "2015",
+        "2016",
         "2017",
         "2018",
         "2019",
         "2020",
         "2021"
       ],
-      values: ["True", "False"],
+      values: ["true", "false"],
       isLoading: true,
     };
   }
@@ -43,7 +44,7 @@ class HomePage extends Component {
   yearsClicked = (event) => {
     let year = event.target.dataset.value;
     fetch(
-      `https://api.spacexdata.com/v3/launches?limit=100&amp;launch_success=true&amp;land_success=true&amp&launch_year=${year}`
+      `https://api.spacexdata.com/v3/launches?limit=100&launch_success=true&land_success=true&launch_year=${year}`
     )
       .then((res) => res.json())
       .then((data) => this.setState({ data }));
@@ -52,7 +53,7 @@ class HomePage extends Component {
   launchSuccess = (event) => {
     let value = event.target.dataset.value;
     fetch(
-      `https://api.spacexdata.com/v3/launches?limit=100&amp&launch_success=${value}`
+      `https://api.spacexdata.com/v3/launches?limit=100&launch_success=${value}`
     )
       .then((res) => res.json())
       .then((data) => this.setState({ data }));
@@ -61,7 +62,7 @@ class HomePage extends Component {
   landSuccess = (event) => {
     let value = event.target.dataset.value;
     fetch(
-      `https://api.spacexdata.com/v3/launches?limit=100&amp&land_success=${value}`
+      `https://api.spacexdata.com/v3/launches?limit=100&launch_success=true&land_success=${value}`
     )
       .then((res) => res.json())
       .then((data) => this.setState({ data }));
@@ -80,7 +81,7 @@ class HomePage extends Component {
                 <h5 className="card-title">Filter:</h5>
                 <hr />
                 <div className="row">
-                  <div>
+                  <div className="year-btn-section">
                     {years.map((year,i)=>(
                       <button
                       type="button"
@@ -105,7 +106,7 @@ class HomePage extends Component {
                           data-value={value}
                           onClick={this.launchSuccess}
                         >
-                          {value}
+                          {value.charAt(0).toUpperCase()+value.substring(1)}
                         </button>
                       ))}
                     </div>
@@ -123,7 +124,7 @@ class HomePage extends Component {
                           data-value={value}
                           onClick={this.landSuccess}
                         >
-                          {value}
+                          {value.charAt(0).toUpperCase()+value.substring(1)}
                         </button>
                       ))}
                     </div>

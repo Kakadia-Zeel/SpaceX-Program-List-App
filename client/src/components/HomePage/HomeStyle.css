@@ -1,5 +1,6 @@
 .btn-style {
   margin: 7px 28px !important;
+  margin-bottom: 5px !important;
 } 
 
 .btn-values {
@@ -8,7 +9,8 @@
 
 .val-btn-section{
   margin: 0 auto !important;
-  margin-top: 15px;
+  margin-top: 15px !important;
+ 
 }
 
 .btn-success {
@@ -77,6 +79,9 @@ hr {
     margin-bottom: 10px;
   }
 
+ 
+
+
 }
 
 @media only screen and (min-device-width:701px) {
@@ -87,11 +92,12 @@ hr {
     color: black;
     background-color: #8de4a1;
     border-color: #28a745;
-    margin-right: 10px !important;
+    margin: 14px 14px 0px 14px !important;
   }
 
   .card-list{
     margin-left: 10px;  
     width: 100%;
   }
+
 }
